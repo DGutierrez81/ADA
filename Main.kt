@@ -8,12 +8,12 @@ fun main(){
 
     val texto = buffer.readLines()
 
-    val parametros = texto[0].split(",")
+    val parametros = texto[0].split(",") //Creamos una lista de la primera línea.
 
     var parametro = ""
 
     var campo = ""
-    
+
 
     for(i in parametros){
         if(i.equals("RECURSO_NOMBRE")){
